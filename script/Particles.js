@@ -60,7 +60,7 @@ export default class Particles{
         const angle = direction;
         const hypoteneus = length;
 
-        /* apply the trygonometric equation to find x(adjacent) and y(opposite) */
+        /* apply the trigonometric equation to find x(adjacent) and y(opposite) */
         // x: opposite = sin A * hypoteneus
         // y: odjacent = cos A * hypoteneus
         const x = initPosition.x + Math.sin(angle) * hypoteneus; 
